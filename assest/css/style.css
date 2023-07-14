@@ -33,4 +33,20 @@
  .collapse form .btnlog:hover{
     background-color: #007bff;
  }
+ .dropdown:hover .dropdown-menu{
+   display: block;
+   border: none;
+   left: 0px;
+   top: 110px;
+   border-radius: none;
+ }
+ .bg-danger2{background: #fd0100;}
+ .nav-item{
+   padding: 26px 16px;
+ }
+ .navbar-nav .nav-item a:hover{
+   color: yellow;
+   font-weight: bold;
+   background-color: red;
+ }
 /* header section end */
