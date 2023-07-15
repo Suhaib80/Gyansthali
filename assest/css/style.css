@@ -16,7 +16,7 @@
     background-color: #ffb607;
     color: #fff;
     font-weight: bold;
- }
+ } 
  .collapse form .btnlog{
     padding: 15px 34px;
     font-size: 16px;
@@ -42,11 +42,32 @@
  }
  .bg-danger2{background: #fd0100;}
  .nav-item{
-   padding: 26px 16px;
+   padding: 30px 16px;
  }
  .navbar-nav .nav-item a:hover{
    color: yellow;
    font-weight: bold;
    background-color: red;
  }
+ ul .nav-item:hover .nav-link{
+   color: #fff;
+ }
 /* header section end */
+
+/* slider section start */
+
+ .carousel-caption{
+   bottom: 25rem;
+ }
+
+/* slider section end */
+
+/* our feature section start */
+
+ .abc{
+   position: relative;
+   top: -50px;
+   width: 500px;
+ }
+
+/* our feature section end */
