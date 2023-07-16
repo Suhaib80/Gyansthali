@@ -59,7 +59,25 @@
  .carousel-caption{
    bottom: 25rem;
  }
-
+ .carousel-indicators{
+  bottom: 10rem;
+}
+.carousel-control-prev{
+  width: 75px;
+  height: 75px;
+  background-color: rgb(224, 224, 224);
+  position: absolute;
+  top: 20rem;
+  bottom: 20rem;
+}
+.carousel-control-next{
+  width: 75px;
+  height: 75px;
+  background-color: rgb(224, 224, 224);
+  position: absolute;
+  top: 20rem;
+  bottom: 20rem;
+}
 /* slider section end */
 
 /* our feature section start */
@@ -67,7 +85,6 @@
  .abc{
    position: relative;
    top: -50px;
-   width: 500px;
  }
-
+ 
 /* our feature section end */
