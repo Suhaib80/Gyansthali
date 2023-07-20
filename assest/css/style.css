@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 
 /* header section start */
 
@@ -152,5 +155,24 @@
   background: url(../img/class-bg.jpg);
   height: 600px;
  }
-
+ .more .row .col .time{
+  position: relative;
+  bottom: 23px;
+ }
+ .next-pre button{
+  position: relative;
+  bottom: 260px;
+ }
+ .next-pre button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: transparent;
+ }
+ .next-pre button:hover{
+  background-color: yellow;
+  border: yellow;
+  color: white;
+ }
 /* our popular section end */
