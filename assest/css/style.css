@@ -176,3 +176,36 @@ a{
   color: white;
  }
 /* our popular section end */
+
+/* our choice section start */
+  .choice{
+    background: url(../img/choice-bg.jpg);
+    margin-top: 0px;
+  }
+  .choice h1{
+    font-size: 48px;
+    color: #56225e;
+  }
+  .choice a{
+    background-color: #ee3131;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 15px 15px;
+  }
+  .choice a:hover{
+    background-color: black;
+  }
+/* our choice section end */
+
+/* video section start */
+
+ .video h1{
+  font-size: 48px;
+  color: #56225e;
+ }
+ .large{
+  background: url(../img/large_img.jpg);
+ }
+
+/* video section end */
