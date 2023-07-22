@@ -204,8 +204,30 @@ a{
   font-size: 48px;
   color: #56225e;
  }
- .large{
-  background: url(../img/large_img.jpg);
+ .large img{
+  border: 14px solid #fff;
+  box-shadow: 0 0 18px rgb(0 0 0 / 12%);
  }
-
+ .large a{
+  font-size: 50px;
+  color: #ee3131;
+  position: relative;
+  left: 550px;
+  bottom: 380px;
+ }
 /* video section end */
+
+/* gallery section start */
+
+ .gallery{
+  background: url(../img/gallery-bg.jpg);
+ }
+ .gallery a{
+  background-color: #ffb607;
+  border-radius: 36px;
+  padding: 18px 38px;
+ }
+ .gallery a:hover{
+  background-color: #000;
+ }
+/* gallery section end */
