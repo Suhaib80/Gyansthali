@@ -42,6 +42,7 @@ a{
    left: 0px;
    top: 110px;
    border-radius: 0;
+   width: 250px;
  }
  .dropdown-item{
   font-weight: 600;
@@ -137,7 +138,7 @@ a{
     bottom: 0px;
   }
   25%{
-    top: 250px;
+    top: 2500px;
     left: 0px;
     bottom: 0px;
   }
@@ -266,3 +267,44 @@ a{
   background-color: #000;
  }
 /* gallery section end */
+
+/* parents section start */
+
+ .parent p{
+  color: #b2b2b2;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+ }
+ .parent h1{
+  color: #000;
+  font-size: 48px;
+  margin: 0;
+ }
+
+/* parents section end */
+
+/* call section start */
+
+ .calle{
+  background: url(../img/enroll-bg.jpg);
+ }
+ .calle h1{
+  color: #fff;
+  font-weight: bold;
+  font-size: 48px;
+  margin: 0;
+  line-height: 1.2;
+  padding-top: 85px;
+ }
+ .calle p{
+  font-size: 16px;
+  padding: 0;
+  line-height: 26px;
+ }
+ .calle a{
+  font-size: 32px;
+  padding-left: 20px;
+ }
+/* call section end */
