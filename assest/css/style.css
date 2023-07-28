@@ -6,6 +6,10 @@
 a{
   text-decoration: none;
 }
+.bg-danger2{background: #fd0100;}
+.bg-primary2{background: #02006D;}
+.bg-warning2{background: #f0aa00;}
+.bg-info2{background: #3db2d5;}
 
 /* header section start */
 
@@ -77,7 +81,14 @@ a{
   font-size: 18px;
  }
  .carousel-indicators{
-  bottom: 10rem;
+  bottom: 8rem;
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+  width: 20px;
+  height: 20px;
+  bottom: 200px;
+  border-radius: 50%;
+  color: white;
 }
 .carousel-control-prev{
   width: 75px;
@@ -96,12 +107,16 @@ a{
   bottom: 20rem;
 }
 .bt .enroll:hover{
-  color: yellow;
-  background-color: white;
+  transition: all 0.3s;
+  color: yellow !important;
+  background-color: black;
+  border: none;
 }
 .bt .tour:hover{
-  color: black;
+  transition: all 0.3s;
+  color: black !important;
   background-color: white;
+  border: none;
 }
 .bt{
   position: relative;
@@ -157,26 +172,11 @@ a{
 
 /* our feature section start */
 
- .abc{
+ .our-feature{
    position: relative;
    top: -50px;
  }
- .box{
-  padding: 15px;
-  border-radius: 20px;
- }
- hr{
-  width: 45px;
-  border: 2px solid white;
- }
- .abc img{
-  position: relative;
-  top: -70px;
-  background-color: white;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-}
+
 /* our feature section end */
 
 /* online learning section start */
@@ -308,3 +308,16 @@ a{
   padding-left: 20px;
  }
 /* call section end */
+
+/* our teachers section start */
+
+ .teach h1{
+  font-size: 48px;
+  color: #56225e;
+ }
+ .teachimg img{
+  width: 280px;
+  max-width: 100%;
+ }
+
+/* our teachers section end */
