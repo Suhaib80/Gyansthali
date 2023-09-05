@@ -10,6 +10,7 @@ a{
 .bg-primary2{background: #02006D;}
 .bg-warning2{background: #f0aa00;}
 .bg-info2{background: #3db2d5;}
+.bg-dark2{background: #232936;}
 
 /* header section start */
 .my ul li .nav-link{
@@ -190,7 +191,7 @@ a{
 /* our popular section start */
 .popular{
   width: 100%;
-  height: 520px;
+  height: 700px;
   background:linear-gradient(rgba(25,24,24,0.5),rgba(0,0,0,0.5)), url(../img/bg.jpg);
   background-size: cover;
  }
@@ -223,27 +224,25 @@ a{
 
 /* our choice section start */
   .choice{
-    background:linear-gradient(rgba(25,24,24,0.5),rgba(0,0,0,0.5)), url(../img/choice-bg.jpg);
-    margin-top: 0px;
+    background:linear-gradient(rgba(25,24,24,0.5),rgba(0,0,0,0.5)), url(../img/choice-bg.jpg) no-repeat top;
+    background-color: #ee3131;
+    background-size: cover;
+    width:100%;
+    }
+  .choice a:hover{
+    background-color: black;
+    transition: all 0.3s;
   }
   .choice h1{
     font-size: 48px;
-    color: #56225e;
   }
-  .choice a{
-    background-color: #ee3131;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 20px;
-    padding: 15px 15px;
-  }
-  .choice a:hover{
-    background-color: black;
+  .choice p{
+    font-size: 14px;
+    color: #000;
   }
 /* our choice section end */
 
 /* video section start */
-
  .video h1{
   font-size: 48px;
   color: #56225e;
@@ -262,22 +261,25 @@ a{
 /* video section end */
 
 /* gallery section start */
-
- .gallery{
+ .photo-gallery{
+  width: 100%;
   background: url(../img/gallery-bg.jpg);
  }
- .gallery a{
-  background-color: #ffb607;
-  border-radius: 36px;
-  padding: 18px 38px;
+ .photo-gallery a:hover{
+  background-color: #02006D;
  }
- .gallery a:hover{
-  background-color: #000;
+ .photo-gallery h1{
+  font-size: 48px;
+  color: #56225e;
+ }
+ p{
+  font-size: 14px;
+  line-height: 26px;
+  color: #52575e;
  }
 /* gallery section end */
 
 /* parents section start */
-
  .parent p{
   color: #b2b2b2;
   font-size: 20px;
@@ -290,11 +292,9 @@ a{
   font-size: 48px;
   margin: 0;
  }
-
 /* parents section end */
 
 /* call section start */
-
  .calle{
   background: url(../img/enroll-bg.jpg);
  }
@@ -318,7 +318,6 @@ a{
 /* call section end */
 
 /* our teachers section start */
-
  .teach h1{
   font-size: 48px;
   color: #56225e;
@@ -327,5 +326,56 @@ a{
   width: 280px;
   max-width: 100%;
  }
-
 /* our teachers section end */
+
+/* Footer section start */
+  .text-white2{
+    color: #bcc5d0;
+  }
+  footer li{
+    list-style-type: none;
+    line-height: 35px;
+    margin-left: -30px;
+  }
+  footer .quick li:before{
+    content: "\f0da";
+    font-weight: 600;
+    font-family: 'Font Awesome 5 Free';
+    padding-right: 10px;
+    color: #bcc5d0;
+    font-size: 14px;
+  }
+  footer a{
+    font-weight: 400;
+    color: #bcc5d0;
+  }
+  footer a:hover{
+    color: #f00768;
+    transition: 0.3s all;
+  }
+  footer .opening li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #bcc5d0;
+  }
+  footer .social{
+    font-size: 20px;
+    padding: 10px 17px;
+    border-radius: 50%;
+  }
+  footer .socialtw{
+    font-size: 20px;
+    padding: 10px 14px;
+    border-radius: 50%;
+  }
+  footer .socialin{
+    font-size: 20px;
+    padding: 10px 14px;
+    border-radius: 50%;
+  }
+  footer .socialyt{
+    font-size: 16px;
+    padding: 10px 14px;
+    border-radius: 50%;
+  }
+/* Footer section end */
