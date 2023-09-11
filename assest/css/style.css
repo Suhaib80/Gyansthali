@@ -293,6 +293,33 @@ a{
   font-size: 48px;
   margin: 0;
  }
+ .quo .quotea{
+  position: relative;
+  bottom: 60px;
+  right: 50px;
+  width: 65px;
+  height: 65px;
+  border: 1px solid #e4d9d9;
+  border-radius: 50%;
+  background-color: #fff;
+ }
+ .quo .quoteb{
+  position: relative;
+  bottom: 60px;
+  left: 430px;
+  width: 65px;
+  height: 65px;
+  border: 1px solid #e4d9d9;
+  border-radius: 50%;
+  background-color: #fff;
+ }
+ .pc{
+  position: relative;
+  left: 540px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+ }
 /* parents section end */
 
 /* call section start */
