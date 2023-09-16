@@ -221,6 +221,10 @@ a{
   border: yellow;
   color: white;
  }
+ .next-pre{
+  display: flex;
+  justify-content: space-between;
+ }
 /* our popular section end */
 
 /* our choice section start */
@@ -407,3 +411,11 @@ a{
     border-radius: 50%;
   }
 /* Footer section end */
+
+/* Blog section start */
+
+/* Blog section end */
+
+/* News section start */
+
+/* News section end */
